@@ -1,4 +1,4 @@
-package myjavaprograms;
+package algorithms;
 import java.util.Arrays;
 public class anagrams
 {

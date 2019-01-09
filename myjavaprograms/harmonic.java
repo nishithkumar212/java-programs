@@ -6,7 +6,7 @@ public class harmonic
 	public static void main(String[] args) {
 System.out.println("enter a number");	
 int a=utility.getint();
-double count=0;
+count=0;
 for(int i=1;i<=a;i++)
 {
 	 
