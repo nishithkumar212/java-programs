@@ -49,6 +49,9 @@ public void show()
 public static void main(String[] args)
 {
 	linkedlist obj=new linkedlist();
+	
+	
+	
 	obj.append(12);
 	obj.append(24);
 obj.append(15);

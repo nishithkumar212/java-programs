@@ -9,6 +9,7 @@ public static void main(String[] args)
 System.out.println("enter number of columns");
 int b=utility.getint();
 	int[][] arr=new int[a][b];
+	System.out.println(arr.length);
 	System.out.println("enter the elements for an array");
 	for(int i=0;i<=arr.length-1;i++)
 	{

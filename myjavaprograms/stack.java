@@ -1,11 +1,12 @@
 package myjavaprograms;
 public class stack 
 {
-	int[] stacks=new int[5];
+	char[] stacks=new char[100];
 	int top=-1;
-public void push(int ele)
+	int len=stacks.length;
+	 static char c;
+public void push(char ele)
 {
-	
 	if(isfull1())
 	{
 	System.out.println("stack is full");	
@@ -14,7 +15,6 @@ public void push(int ele)
 	{
 		top++;
 		stacks[top]=ele;
-		System.out.println("element inserted");
 	}
 }
 	public boolean isfull1()
@@ -28,7 +28,7 @@ public void push(int ele)
 			return false;
 		}
 	}
-	public int pop()
+	public void  pop()
 	{
 		if(isempty())
 		{
@@ -36,34 +36,18 @@ public void push(int ele)
 		}
 		else
 		{
-			int a=stacks[top--]; 
-            return a; 
+		int  c=stacks[top--];    
 		}
-		return top;
 	}
 public boolean isempty()
 {
-	if(stacks[top]<0)
+
+	if(top==-1)
 	{
 		return true;
 	}
-	else
-	{
-		return false;
-	}
+	return false;
 }
-	public static void main(String[] args)
-	{
-		stack s =new stack();
-		s.push(10);
-		s.push(20);
-		s.push(30);
-		s.push(40);
-		s.push(50);
-		s.push(60);
-		int k=s.pop();
-		System.out.println(k);
-	}
 	}
 		
 

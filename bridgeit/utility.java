@@ -133,7 +133,6 @@ public static void bubblesortinteger(int[] arr)
 		}
 	public static void insertionsortinteger(int[] arr)
 	{
-
 		int len=arr.length;
 		for(int i=1;i<len;i++)
 		{
